@@ -1,0 +1,10 @@
+const crudUser = async (record) => {
+    setLoading(true);
+    try {
+      const response = JSON.parse(await runGoogleScript('crudUser',record));
+      alert(response.message)
+    } catch (error) {
+      alert(error)
+    }
+    setLoading(false);
+  };
