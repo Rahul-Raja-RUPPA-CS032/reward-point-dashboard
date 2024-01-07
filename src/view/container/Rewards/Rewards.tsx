@@ -5,6 +5,7 @@ import Loader from '../../components/Loader/Loader';
 import Modal from '../../components/Modal';
 
 const Rewards: React.FC<any> = (props: any) => {
+  //Test Comment
   const [isLoading, setLoading] = useState<boolean>(false);
   const [data, setData] = useState<any>(Array(2).fill(Array(4).fill('')));
   const [selectedRecord, setSelectedRecord] = useState<any>(Array(4).fill(''));
